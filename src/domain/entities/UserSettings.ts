@@ -1,0 +1,1 @@
+export interface UserSettings { id:string; userName:string; shareUrl:string; appVersion:string; changeCounter:number; lastBackupAt?:string; }

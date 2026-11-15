@@ -1,2 +1,1 @@
-# Obserb_it Part 1A
-Run npm install and npm run dev
+Part 1B - Domain layer, repositories and Dexie database.

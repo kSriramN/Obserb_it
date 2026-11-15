@@ -1,0 +1,1 @@
+import { Person } from "../entities/Person"; export interface PersonRepository { create(person:Person):Promise<void>; update(person:Person):Promise<void>; archive(id:string):Promise<void>; getById(id:string):Promise<Person|null>; getAll():Promise<Person[]>; }

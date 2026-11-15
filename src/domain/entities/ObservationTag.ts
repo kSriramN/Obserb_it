@@ -1,0 +1,1 @@
+export interface ObservationTag { observationId:string; tagId:string; }

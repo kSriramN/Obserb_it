@@ -1,0 +1,1 @@
+import { Observation } from "../entities/Observation"; export interface ObservationRepository { create(observation:Observation):Promise<void>; update(observation:Observation):Promise<void>; delete(id:string):Promise<void>; getAll():Promise<Observation[]>; getBySubject(subjectId:string):Promise<Observation[]>; search(query:string):Promise<Observation[]>; }

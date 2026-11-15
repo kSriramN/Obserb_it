@@ -1,0 +1,1 @@
+import { UserSettings } from "../entities/UserSettings"; export interface SettingsRepository { save(settings:UserSettings):Promise<void>; get():Promise<UserSettings|null>; }

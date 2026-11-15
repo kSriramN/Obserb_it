@@ -1,0 +1,1 @@
+import { Tag } from "../entities/Tag"; export interface TagRepository { create(tag:Tag):Promise<void>; update(tag:Tag):Promise<void>; delete(id:string):Promise<void>; getAll():Promise<Tag[]>; }
