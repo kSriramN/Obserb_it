@@ -1,0 +1,1 @@
+import {create} from "zustand";export const useAppStore=create<{userName:string;setUserName:(n:string)=>void;}>(set=>({userName:"",setUserName:(n)=>set({userName:n})}));

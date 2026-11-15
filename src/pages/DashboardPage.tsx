@@ -1,0 +1,1 @@
+import {useAppStore} from "../store/appStore";export default function(){const n=useAppStore(x=>x.userName);return <div><h1>Welcome {n}</h1><p>Foundation Ready</p></div>}

@@ -1,0 +1,1 @@
+import {createBrowserRouter} from "react-router-dom";import LandingPage from "./pages/LandingPage";import SetupPage from "./pages/SetupPage";import DashboardPage from "./pages/DashboardPage";export const router=createBrowserRouter([{path:"/",element:<LandingPage/>},{path:"/setup",element:<SetupPage/>},{path:"/dashboard",element:<DashboardPage/>}]);

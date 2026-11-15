@@ -1,0 +1,1 @@
+import {useState} from "react";import {useNavigate} from "react-router-dom";import {useAppStore} from "../store/appStore";export default function(){const [n,s]=useState("");const nav=useNavigate();const setName=useAppStore(x=>x.setUserName);return <div><input value={n} onChange={e=>s(e.target.value)}/><button onClick={()=>{setName(n);nav("/dashboard")}}>Continue</button></div>}
